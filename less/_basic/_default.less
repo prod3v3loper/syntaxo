@@ -1,0 +1,94 @@
+
+@codeFont: 'Consolas', 'Andale Mono', 'Monotype.com', 'Lucida Console', 'Monospace', Serif;
+
+body {
+
+    width:75%;
+    margin:0 auto;
+}
+
+.linecount {
+
+    float:left;
+    width:auto;
+    min-width:50px;
+    border-right:1px solid lawngreen;
+    text-align:right;
+}
+
+#linecode {
+
+    float:left;
+    width:auto;
+}
+
+pre {
+
+    display:block;
+    background-color:#222;
+    margin:1em 0;
+    padding:1em;
+    font: 1rem @codeFont;
+    color:#E3CEAB;
+    overflow:auto;
+    white-space:pre;
+    word-wrap:normal;
+    border-radius: 4px;
+    border: 1px solid #EBEBEB;
+
+    code {
+
+        font: inherit;
+        color: inherit;
+    }
+
+    /* All Comments */
+    span.c {color:rgba(150,150,150,0.7);} /* Orange */
+
+    /* HTML Tags */
+    span.h {color:#FFF;} /* LightBlue */
+
+    /* CSS */
+    span.hID {color:#268BD2;}
+    span.hCLASS {color:#FFA07A;} /* LightSalmon  */
+    span.hCOLOR {color:#DCDCDC;} /* Gainsboro  */
+    /* HTML style Tag */
+    span.hS {color:#9932CC;} /* DarkOrchid */
+    /* HTML link Tag */
+    span.hL {color:#00BFFF;} /* DeepSkyBlue */
+    /* HTML meta Tag */
+    span.hM {color:#1E90FF;} /* DodgerBlue */
+    /* HTML JavaScript Tag */
+    span.hJS {color:#FF1493;} /* DeepPink */
+    /* Webkit Filter */
+    span.hKIT {font-style: italic; color:#DCDCDC;} /* Gainsboro */
+    /* LESS */
+    span.less {color:#F9F2F4;}
+    span.lessMIX {color:#F9F2F4;}
+    span.lessMA {color:#657B83;}
+    /* Alle Attribute */
+    span.a {color:#00CED1;} /* DarkTurquoise */
+    /* Numbers, Size */
+    span.n {color:#f2f2f2;}
+    /* Strings */
+    span.s {color:#87CEEB;} /* SkyBlue */
+    /* boolean */
+    span.booltrues {color:#00ff00;}
+    span.boolfalses {color:#ff0000;}
+    /* Keywords PHP - JS - Perl */
+    span.kALL {color:#2AA1AE;} /*   */
+    /* Keywords PHP */
+    span.kPHP {color:#808000;} /* Olive */
+    span.kPHPback {color:MediumSpringGreen;} /* MediumSpringGreen */
+    /* Keywords JS */
+    span.kJS {color:#87CEFA;} /* LightSkyBlue  */
+    /* Variablen */
+    span.v {color:#00cccc;} /* RoyalBlue */
+    /* Defines */
+    span.d {color:#FFFFFF;} /* White */
+    /* Punctuations */
+    span.p {color:#8FBC8F;} /* DarkSeaGreen */
+    span.static {font-style: italic; color:#DCDCDC;} /* Gainsboro */
+    /* @import | @namespace */
+    span.in {color:cyan;}
+}
