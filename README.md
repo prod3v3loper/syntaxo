@@ -1,4 +1,4 @@
-# SYNTAXO
+# SYNTAXO (by Melabu)
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
 
