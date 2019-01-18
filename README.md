@@ -47,4 +47,24 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 "/(?<!\w)((\/\*\s*|\*\s*)([^\[|\#]*)(\*\/)?)/i" => '<span class="c">\\1</span>',
 ```
 
+# PREVIEW
+
 ![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
+
+# Contribute
+
+Please [file an issue](https://github.com/prod3v3loper/syntaxo/issues) if you
+think something could be improved. Please submit Pull Requests when ever
+possible.
+
+# Built with
+
+* [NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
+
+# Authors
+
+* **Samet Tarim** - *All works* - [ProDeveloper](https://www.tnado.com/author/prod3v3loper/)
+
+# License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)

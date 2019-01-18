@@ -3,9 +3,11 @@
 /**
  * Syntaxo
  * 
- * @copyright : Samet Tarim
- * @author    : Samet Tarim (prod3v3loper)
- * @link      : https://prod3v3loper.github.io/syntaxo/
+ * @copyright   (c) 2018, Samet Tarim 
+ * @author      Samet Tarim (prod3v3loper)
+ * @package     Syntaxo
+ * @since       1.0
+ * @link        https://prod3v3loper.github.io/syntaxo/
  */
 class SyntaxHighlight {
 
