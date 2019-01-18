@@ -47,4 +47,4 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 "/(?<!\w)((\/\*\s*|\*\s*)([^\[|\#]*)(\*\/)?)/i" => '<span class="c">\\1</span>',
 ```
 
-![alt text](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "index.php")
+![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
