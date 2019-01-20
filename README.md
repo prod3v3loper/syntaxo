@@ -1,3 +1,6 @@
+![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
+![alt text](https://img.shields.io/badge/license-CCO-blue.svg "CCO 1.0")
+
 # SYNTAXO (by Melabu)
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
