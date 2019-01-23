@@ -54,7 +54,7 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 
 # PREVIEW
 
-![The index.php preview](https://prod3v3loper.github.io/Syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
+![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
 
 # Contribute
 
