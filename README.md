@@ -72,4 +72,4 @@ possible.
 
 # License
 
-[MIT](https://opensource.org/licenses/MIT)]
+[MIT](https://opensource.org/licenses/MIT)
