@@ -68,7 +68,7 @@ possible.
 
 # Authors
 
-* **Samet Tarim** - *All works* - [ProDeveloper](https://www.tnado.com/author/prod3v3loper/)
+* **Samet Tarim** - *All works* - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
 
 # License
 
