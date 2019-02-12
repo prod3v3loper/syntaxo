@@ -1,13 +1,13 @@
 <?php
 require_once './classes/class.Syntaxo.php';
-$HIGHLIGHT = new SyntaxHighlight();
+$HIGHLIGHT = new syntax\Syntaxo();
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Syntaxo - Syntax Highlighter Test with PHP</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Syntaxo - Syntax Highlighter Test by prod3v3loper</title>
+        <?php echo $HIGHLIGHT->getStyle(); ?>
     </head>
     <body>
 <?php

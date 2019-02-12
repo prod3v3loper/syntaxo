@@ -1,15 +1,18 @@
 <?php
 
+namespace syntax;
+
 /**
  * Syntaxo
  * 
  * @copyright   (c) 2018, Samet Tarim 
  * @author      Samet Tarim (prod3v3loper)
- * @package     Syntaxo
+ * @package     Melabuai
+ * @subpackage  Syntaxo
  * @since       1.0
  * @link        https://prod3v3loper.github.io/syntaxo/
  */
-class SyntaxHighlight {
+class Syntaxo {
 
     // Add options
     public $args = array();
@@ -21,6 +24,14 @@ class SyntaxHighlight {
     public function __construct(array $args = array()) {
         // Handle options
         $this->args = $args;
+    }
+
+        /**
+     * 
+     * @param array $args
+     */
+    public function getStyle() {
+        return '<style>' . file_get_contents('css/style.css') . '</style>';
     }
 
     /**

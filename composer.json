@@ -1,0 +1,15 @@
+{
+    "name": "prod3v3loper/syntaxo",
+    "description": "Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.",
+    "authors": [
+        {
+            "name": "prod3v3loper"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "syntax\\": "./classes/"
+        }
+    },
+    "require": {}
+}
