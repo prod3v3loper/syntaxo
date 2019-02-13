@@ -4,7 +4,7 @@
 # SYNTAXO (by Melabuai)
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
-[Theme Page of this Site](https://prod3v3loper.github.io/Syntaxo/)
+[Theme Page of this Site](https://prod3v3loper.github.io/syntaxo/)
 
 **class.Syntaxo.php**
 **Size**: 14.76 KiB                                     
