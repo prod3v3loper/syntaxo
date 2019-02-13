@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/prod3v3loper/syntaxo"
+            "url": "https://github.com/prod3v3loper/syntaxo.git"
         }
     ],
     "authors": [
