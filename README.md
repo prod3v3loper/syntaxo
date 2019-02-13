@@ -24,7 +24,7 @@ Very easy to use and very easy to modify. All you have to do is to include the f
 
 ```php
 require_once './classes/class.Syntaxo.php';
-$HIGHLIGHT = new SyntaxHighlight();
+$HIGHLIGHT = new Syntaxo\Syntaxo();
 echo $HIGHLIGHT->process('
 <!DOCTYPE html>
 <html>

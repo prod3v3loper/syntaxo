@@ -1,6 +1,8 @@
 <?php
 
-namespace syntax;
+declare(strict_types=1);
+
+namespace Syn;
 
 /**
  * Syntaxo
