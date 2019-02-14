@@ -1,5 +1,7 @@
 language: php
-before_install:
-  - travis_retry composer self-update
+install:
   - composer install
+before_script:
+  - git config --global user.name travis-ci
+  - git config --global user.email travis@example.com
 script: phpunit --exclude-group FITS --bootstrap vendor/autoload.php tests
