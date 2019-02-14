@@ -8,10 +8,5 @@ php:
   - 7.1.18
   - 7.2
   - 7.3
-
-before_script:
-  - wget http://getcomposer.org/composer.phar
-  - php composer.phar install
-  - phpunit
   
 script: phpunit --bootstrap vendor/autoload.php tests/SyntaxoTest
