@@ -9,10 +9,6 @@
         {
             "type": "git",
             "url": "https://github.com/prod3v3loper/syntaxo.git"
-        },
-        {
-            "type": "vsc",
-            "url": "https://github.com/prod3v3loper/syntaxo"
         }
     ],
     "authors": [
