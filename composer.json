@@ -22,7 +22,7 @@
         "psr-4": { "Syn\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Syn\\": "./tests" }
+        "psr-4": { "Syn\\": "tests/" }
     },
     "require": {
         "php": ">=7.0"
