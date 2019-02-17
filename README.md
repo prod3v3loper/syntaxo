@@ -23,8 +23,12 @@ Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can 
 
 Very easy to use and very easy to modify. All you have to do is to include the file, instantiate the class, and call the method method with the string.
 
-Composer download
+## Composer Install
 
+Download with [Composer](https://getcomposer.org/).
+You found the package on [Packigist](https://packagist.org/packages/prod3v3loper/syntaxo).
+
+Autoload and package in **composer.json**
 ```json
 {
     "autoload": {
@@ -34,8 +38,8 @@ Composer download
         "prod3v3loper/syntaxo": ">=1.0"
     },
 ```
-[Donwload via composer](https://packagist.org/packages/prod3v3loper/syntaxo) and use with vendo autoload
 
+`index.php`
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
 $HIGHLIGHT = new Syn\Syntaxo();
@@ -53,7 +57,15 @@ echo $HIGHLIGHT->process('
 ');
 ```
 
-Normal download or git download
+## Git Install
+
+```
+git clone https://github.com/prod3v3loper/syntaxo.git /Users/username/projects/
+```
+
+Get per Git or download and use it.
+
+`index.php`
 ```php
 require_once './classes/class.Syntaxo.php';
 $HIGHLIGHT = new Syn\Syntaxo();
