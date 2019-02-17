@@ -23,9 +23,40 @@ Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can 
 
 Very easy to use and very easy to modify. All you have to do is to include the file, instantiate the class, and call the method method with the string.
 
+Composer download
+
+```json
+{
+    "autoload": {
+        "psr-4": { "Syn\\": "src/" }
+    },
+    "require": {
+        "prod3v3loper/syntaxo": ">=1.0"
+    },
+```
+[Donwload via composer](https://packagist.org/packages/prod3v3loper/syntaxo) and use with vendo autoload
+
+```php
+require_once __DIR__ . '/vendor/autoload.php';
+$HIGHLIGHT = new Syn\Syntaxo();
+echo $HIGHLIGHT->process('
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Highlight</title>
+  </head>
+  <body>
+    <!-- Content -->
+  </body>
+</html>
+');
+```
+
+Normal download or git download
 ```php
 require_once './classes/class.Syntaxo.php';
-$HIGHLIGHT = new Syntaxo\Syntaxo();
+$HIGHLIGHT = new Syn\Syntaxo();
 echo $HIGHLIGHT->process('
 <!DOCTYPE html>
 <html>
