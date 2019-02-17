@@ -1,5 +1,5 @@
 ![alt text](https://img.shields.io/badge/build-passing-brightgreen.svg "Build passing")
-![alt text](https://img.shields.io/badge/license-CCO-blue.svg "CCO 1.0")
+[![alt text](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE)
 
 # SYNTAXO (by Melabuai)
 
