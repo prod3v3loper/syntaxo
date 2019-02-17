@@ -1,6 +1,10 @@
-[![alt text](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo)
-[![alt text](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE)
-[![alt text](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/)
+[![alt text](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
+[![alt text](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo "Build passing")
+![alt text](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
+![alt text](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
+![alt text](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
+[![alt text](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE "MIT License")
+[![alt text](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 
 # SYNTAXO (by Melabuai)
 
@@ -63,7 +67,7 @@ echo $HIGHLIGHT->process('
 git clone https://github.com/prod3v3loper/syntaxo.git /Users/username/projects/
 ```
 
-Get per Git or download and use it.
+Get per [Git](https://git-scm.com/) or download and use it.
 
 `index.php`
 ```php
