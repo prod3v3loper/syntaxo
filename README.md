@@ -1,3 +1,5 @@
+![alt text](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c8f4a31b8d411389cf9c6d95e0319d)](https://www.codacy.com/app/prod3v3loper/syntaxo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/syntaxo&amp;utm_campaign=Badge_Grade)
 [![alt text](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
 [![alt text](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo "Build passing")
 ![alt text](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
