@@ -31,11 +31,7 @@ Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can 
 - Perl
 - ...
 
-</div>
-
-<div align="center">
-
-# USE
+# Usage
 
 </div>
 
@@ -128,7 +124,7 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 
 <div align="center">
 
-# PREVIEW
+# Preview
 
 ![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
 
