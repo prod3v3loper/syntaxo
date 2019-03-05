@@ -1,7 +1,7 @@
 ![Language](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c8f4a31b8d411389cf9c6d95e0319d)](https://www.codacy.com/app/prod3v3loper/syntaxo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/syntaxo&amp;utm_campaign=Badge_Grade)
 [![Packagist Version](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
-[![Build Passing](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo "Build passing")
+[![Build Status](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build Status")](https://travis-ci.org/prod3v3loper/syntaxo "Build Status")
 ![Repo Siz](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
 ![Github Release date](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
 ![Packgist PHP Version](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
