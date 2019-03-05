@@ -35,7 +35,7 @@ This solution extends the vendor autoloader because it calls the files with cert
 
 Download [Composer](https://getcomposer.org/) local or global. Check for more [Tutorial - NetBeans with Composer and Packagist](https://www.tnado.com/blog/netbeans-with-composer-and-packagist-the-php-package-manager/) for this one.
 
-You found the package on [Packigist](https://packagist.org/packages/prod3v3loper/syntaxo).
+You found the package on [Packigist - Syntaxo](https://packagist.org/packages/prod3v3loper/syntaxo).
 
 Add the Syntaxo dependencie to the **composer.json** and set the autoload.
 ```json
