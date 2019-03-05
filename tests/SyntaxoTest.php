@@ -18,15 +18,15 @@ use PHPUnit\Framework\TestCase;
  */
 class SyntaxoTest extends TestCase {
 
-    public function testAttributeIsArray() {
-        $_SYNTAXO = new Syntaxo(array());
-        $this->assertIsArray($_SYNTAXO->args);
-    }
-
     public function testHasClassAttribute(): void {
         $this->assertClassHasAttribute(
                 'args', Syntaxo::class
         );
+    }
+    
+    public function testAttributeIsArray() {
+        $_SYNTAXO = new Syntaxo(array());
+        $this->assertIsArray($_SYNTAXO->args);
     }
 
     public function testReturnStyleAsString(): void {

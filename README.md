@@ -1,12 +1,12 @@
-![alt text](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
+![Language](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c8f4a31b8d411389cf9c6d95e0319d)](https://www.codacy.com/app/prod3v3loper/syntaxo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/syntaxo&amp;utm_campaign=Badge_Grade)
-[![alt text](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
-[![alt text](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo "Build passing")
-![alt text](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
-![alt text](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
-![alt text](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
-[![alt text](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE "MIT License")
-[![alt text](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
+[![Packagist Version](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
+[![Build Passing](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build passing")](https://travis-ci.org/prod3v3loper/syntaxo "Build passing")
+![Repo Siz](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
+![Github Release date](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
+![Packgist PHP Version](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
+[![MIT License](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE "MIT License")
+[![Website](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 
 # SYNTAXO (by Melabuai)
 
@@ -29,12 +29,15 @@ Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can 
 
 Very easy to use and very easy to modify. All you have to do is to include the file, instantiate the class, and call the method method with the string.
 
-## Composer Install
+## Packagist with Composer
 
-Download with [Composer](https://getcomposer.org/).
+This solution extends the vendor autoloader because it calls the files with certain criteria. The extension allows you to call classes wherever the Autloder is involved.
+
+Download [Composer](https://getcomposer.org/) local or global. Check for more [Tutorial - NetBeans with Composer and Packagist](https://www.tnado.com/blog/netbeans-with-composer-and-packagist-the-php-package-manager/) for this one.
+
 You found the package on [Packigist](https://packagist.org/packages/prod3v3loper/syntaxo).
 
-Autoload and package in **composer.json**
+Add the Syntaxo dependencie to the **composer.json** and set the autoload.
 ```json
 {
     "autoload": {
@@ -45,10 +48,15 @@ Autoload and package in **composer.json**
     },
 ```
 
+Now run the composer install command with php
+```
+php composer.phar install
+```
+
 `index.php`
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
-$HIGHLIGHT = new Syn\Syntaxo();
+$HIGHLIGHT = new \Syn\Syntaxo();
 echo $HIGHLIGHT->process('
 <!DOCTYPE html>
 <html>
@@ -69,12 +77,12 @@ echo $HIGHLIGHT->process('
 git clone https://github.com/prod3v3loper/syntaxo.git /Users/username/projects/
 ```
 
-Get per [Git](https://git-scm.com/) or download and use it.
+Get per [Git](https://git-scm.com/) or [download](https://github.com/prod3v3loper/syntaxo/archive/master.zip) and use it.
 
 `index.php`
 ```php
-require_once './classes/class.Syntaxo.php';
-$HIGHLIGHT = new Syn\Syntaxo();
+require_once './src/Syntaxo.php';
+$HIGHLIGHT = new \Syn\Syntaxo();
 echo $HIGHLIGHT->process('
 <!DOCTYPE html>
 <html>
