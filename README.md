@@ -34,7 +34,9 @@ Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can 
 </div>
 
 <div align="center">
+
 # USE
+
 </div>
 
 Very easy to use and very easy to modify. All you have to do is to include the file, instantiate the class, and call the method method with the string.
@@ -108,7 +110,9 @@ echo $HIGHLIGHT->process('
 ```
 
 <div align="center">
+
 # REGEX MODIFY
+
 </div>
 
 Here's a snippet of Syntaxo regex for comments on each language. And you can modify them as needed and get even better results.
@@ -123,13 +127,17 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 ```
 
 <div align="center">
+
 # PREVIEW
+
 </div>
 
 ![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
 
 <div align="center">
+
 # Contribute
+
 </div>
 
 Please [file an issue](https://github.com/prod3v3loper/syntaxo/issues) if you
@@ -137,19 +145,25 @@ think something could be improved. Please submit Pull Requests when ever
 possible.
 
 <div align="center">
+
 # Built with
+
 </div>
 
 * [NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
 
 <div align="center">
+
 # Authors
+
 </div>
 
 * **Samet Tarim** - *All works* - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
 
 <div align="center">
+
 # License
+
 </div>
 
 [MIT](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE)
