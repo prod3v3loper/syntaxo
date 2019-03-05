@@ -8,7 +8,7 @@
 [![MIT License](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE "MIT License")
 [![Website](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 
-# SYNTAXO (by Melabuai)
+# 🔮 SYNTAXO
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
 [Theme Page of this Site](https://prod3v3loper.github.io/syntaxo/)
