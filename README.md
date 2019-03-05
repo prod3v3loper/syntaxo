@@ -130,40 +130,24 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 
 # PREVIEW
 
-</div>
-
 ![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
 
-<div align="center">
-
 # Contribute
-
-</div>
 
 Please [file an issue](https://github.com/prod3v3loper/syntaxo/issues) if you
 think something could be improved. Please submit Pull Requests when ever
 possible.
 
-<div align="center">
-
 # Built with
 
-</div>
-
-* [NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
-
-<div align="center">
+[NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
 
 # Authors
 
-</div>
-
-* **Samet Tarim** - *All works* - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
-
-<div align="center">
+**Samet Tarim** - *All works*
 
 # License
 
-</div>
+[MIT](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
 
-[MIT](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE)
+</div>
