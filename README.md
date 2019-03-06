@@ -2,13 +2,14 @@
 
 ![Melabuai Logo](https://raw.githubusercontent.com/prod3v3loper/syntaxo/master/img/icon-MB.png "Melabuai Brand")
 
-![Language](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c8f4a31b8d411389cf9c6d95e0319d)](https://www.codacy.com/app/prod3v3loper/syntaxo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/syntaxo&amp;utm_campaign=Badge_Grade)
-[![Packagist Version](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
 [![Build Status](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build Status")](https://travis-ci.org/prod3v3loper/syntaxo "Build Status")
-![Repo Siz](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
-![Github Release date](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
+![Language](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
 ![Packgist PHP Version](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
+[![Packagist Version](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
+![Repo Siz](https://img.shields.io/github/repo-size/prod3v3loper/syntaxo.svg?style=flat "Repo Size")
+![Code Siz](https://img.shields.io/github/languages/code-size/prod3v3loper/syntaxo.svg?style=flat "Code Size")
+![Github Release date](https://img.shields.io/github/release/prod3v3loper/syntaxo.svg?style=flat "Github Release date")
 [![MIT License](https://img.shields.io/packagist/l/prod3v3loper/syntaxo.svg?style=flat "MIT License")](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE "MIT License")
 [![Website](https://img.shields.io/website-up-down-green-red/https/www.tnado.com/open-source-projects-by-prod3v3loper.svg?style=flat "Website")](https://www.tnado.com/open-source-projects-by-prod3v3loper/ "Website")
 
@@ -17,19 +18,23 @@
 # 🔮 SYNTAXO
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
-[Theme Page of this Site](https://prod3v3loper.github.io/syntaxo/)
+[Theme Page of this Site](https://prod3v3loper.github.io/syntaxo/)                                            
 
-**class.Syntaxo.php**
-**Size**: 14.76 KiB                                     
-**Gzipped**: 4.03 KiB                                                      
+![Size](https://img.shields.io/github/size/prod3v3loper/syntaxo/src/Syntaxo.php.svg "Size")
 
-- HTML
-- CSS - LESS - SASS
-- JavaScript
-- PHP
-- MySQL
-- Perl
-- ...
+HTML
+
+CSS - LESS - SASS
+
+JavaScript
+
+PHP
+
+MySQL
+
+Perl
+
+...
 
 # Usage
 

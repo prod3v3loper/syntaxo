@@ -16,7 +16,8 @@ $HIGHLIGHT = new \Syn\Syntaxo();
     </head>
     <body>
 <?php
-        echo '<h1>HTML + CSS + JS</h1>';
+        $headlineOne = "<h1>HTML + CSS + JS</h1>";
+        echo $headlineOne;
         echo $HIGHLIGHT->process('
 <!-- HTML Kommentar -->
 <!DOCTYPE html>
@@ -75,7 +76,8 @@ $HIGHLIGHT = new \Syn\Syntaxo();
   </body>
 </html>');
 
-        echo '<h1>CSS</h1>';
+        $headlineTwo = "<h1>CSS</h1>";
+        echo $headlineTwo;
         echo $HIGHLIGHT->process('
 /* ********************* *
  *  W3C 5 Selectors CSS
@@ -167,7 +169,8 @@ input[type="checkbox"]#p4 {background-color: hsl(120, 60%, 70%);}    /* pastel g
 #p4 {background-color: hsla(120, 60%, 70%, 0.3);}    /* pastel green with opacity */ 
 ');
 
-        echo '<h1>CSS Selectors Level 3</h1>';
+        $headlineThree = "<h1>CSS Selectors Level 3</h1>";
+        echo $headlineThree;
         echo $HIGHLIGHT->process('
 /* ********************* *
  *  Selectors
@@ -217,8 +220,8 @@ E[foo$="bar"]           // an E element whose "foo" attribute value ends exactly
 E[foo*="bar"]           // an E element whose "foo" attribute value contains the substring "bar" Attribute selectors 3
 E[foo|="en"]            // an E element whose "foo" attribute has a hyphen-separated list of values beginning (from the left) with "en" Attribute selectors 2
 ');
-
-        echo '<h1>LESS</h1>';
+        $headlineFour = "<h1>LESS</h1>";
+        echo $headlineFour;
         echo $HIGHLIGHT->process('
 // LESS
 // Variables
