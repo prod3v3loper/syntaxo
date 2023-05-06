@@ -124,13 +124,7 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 
 # Contribute
 
-Please [file an issue](https://github.com/prod3v3loper/syntaxo/issues) if you
-think something could be improved. Please submit Pull Requests when ever
-possible.
-
-# Built with
-
-[NetBeans](https://netbeans.org/) - NetBeans editor for error-free code
+Please read the [contributing](https://github.com/prod3v3loper/syntaxo/blob/main/CONTRIBUTING.md).
 
 # Authors
 
