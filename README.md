@@ -1,9 +1,5 @@
-<div align="center">
-
 ![Melabuai Logo](https://raw.githubusercontent.com/prod3v3loper/syntaxo/master/img/icon-MB.png "Melabuai Brand")
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/10c8f4a31b8d411389cf9c6d95e0319d)](https://www.codacy.com/app/prod3v3loper/syntaxo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=prod3v3loper/syntaxo&amp;utm_campaign=Badge_Grade)
-[![Build Status](https://travis-ci.org/prod3v3loper/syntaxo.svg?branch=master "Build Status")](https://travis-ci.org/prod3v3loper/syntaxo "Build Status")
 ![Language](https://img.shields.io/github/languages/top/prod3v3loper/syntaxo.svg?style=flat "Language")
 ![Packgist PHP Version](https://img.shields.io/packagist/php-v/prod3v3loper/syntaxo.svg?style=flat "Packgist PHP Version")
 [![Packagist Version](https://img.shields.io/packagist/v/prod3v3loper/syntaxo.svg?style=flat "Packigist Version")](https://packagist.org/packages/prod3v3loper/syntaxo "Packigist Version")
@@ -18,27 +14,22 @@
 # 🔮 SYNTAXO
 
 Multi Syntax Highlighter programmed with PHP. Immediately ready for use and can be used anywhere in seconds.
+
 [Theme Page of this Site](https://prod3v3loper.github.io/syntaxo/)                                            
 
 ![Size](https://img.shields.io/github/size/prod3v3loper/syntaxo/src/Syntaxo.php.svg "Size")
 
-HTML
-
-CSS - LESS - SASS
-
-JavaScript
-
-PHP
-
-MySQL
-
-Perl
-
-...
+- HTML
+- CSS
+- LESS
+- SASS
+- JavaScript
+- PHP
+- MySQL
+- Perl
+And many more...
 
 # Usage
-
-</div>
 
 Very easy to use and very easy to modify. All you have to do is to include the file, instantiate the class, and call the method method with the string.
 
@@ -127,8 +118,6 @@ Here's a snippet of Syntaxo regex for comments on each language. And you can mod
 "/(?<!\w)((\/\*\s*|\*\s*)([^\[|\#]*)(\*\/)?)/i" => '<span class="c">\\1</span>',
 ```
 
-<div align="center">
-
 # Preview
 
 ![The index.php preview](https://prod3v3loper.github.io/syntaxo/img/syntaxo-multi-syntax-highlighter.png "The index.php preview")
@@ -145,10 +134,12 @@ possible.
 
 # Authors
 
-**Samet Tarim** - *All works*
+[prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
+
+# Support
+
+[Hyperly](https://www.hyperly.de)
 
 # License
 
-[MIT](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE) - [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
-
-</div>
+[MIT](https://github.com/prod3v3loper/syntaxo/blob/master/LICENSE)
