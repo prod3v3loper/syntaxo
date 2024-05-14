@@ -128,11 +128,7 @@ Please read the [contributing](https://github.com/prod3v3loper/syntaxo/blob/main
 
 # Authors
 
-[prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
-
-# Support
-
-[Hyperly](https://www.hyperly.de)
+**Samet Tarim** [prod3v3loper](https://www.tnado.com/author/prod3v3loper/)
 
 # License
 
